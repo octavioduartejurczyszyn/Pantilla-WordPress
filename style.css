@@ -90,6 +90,35 @@ article {
 }
 
 
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .proyecto-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .proyecto-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .proyecto-card h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .proyecto-card p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
   
   
 
